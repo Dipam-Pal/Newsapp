@@ -14,6 +14,7 @@ const Cardcom = ({data}) => {
                     <a className='title' onClick={()=>window.open(curItem.url)}>{curItem.title}</a>
                     <p>{curItem.description}</p>
                     <button onClick={()=>window.open(curItem.url)}>Read More</button>
+                    {/* <button onClick={()=>window.open(curItem.url)}>Read More</button> */}
                 </div>
             </div>
         )
